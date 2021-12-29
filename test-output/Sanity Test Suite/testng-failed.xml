@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sanity Test Suite]">
+  <test thread-count="5" name="Release 2021.12 Sanity Testing(failed)">
+    <classes>
+      <class name="ob.qa.test.testNGJangu.Abay_Advanced_Search_Sanity">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="category_options_in_ascendant_order"/>
+          <include name="ebay_logo_link_navigate_home_page_test"/>
+          <include name="advanced_keywords_test"/>
+        </methods>
+      </class> <!-- ob.qa.test.testNGJangu.Abay_Advanced_Search_Sanity -->
+    </classes>
+  </test> <!-- Release 2021.12 Sanity Testing(failed) -->
+</suite> <!-- Failed suite [Sanity Test Suite] -->

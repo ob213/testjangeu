@@ -1,0 +1,12 @@
+<suite name="Before and After Test Demo">
+	<test name="Before and After Test annotations">
+		<classes>
+			<class name="ob.qa.test.testNGJangu.Demo_Test" />
+		</classes>
+	</test>
+	<test name="General Testing">
+		<classes>
+			<class name="ob.qa.test.testNGJangu.EBayHome_Sanity" />
+		</classes>
+	</test>
+</suite>

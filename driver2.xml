@@ -1,0 +1,17 @@
+<suite name="Include Exclude Methods Suite">
+	<test name="Provide Methods">
+		<classes>
+			<class name="ob.qa.test.testNGJangu.EBayHome_Sanity">
+				<methods>
+					<include name="empty_Search_test_softassert" />
+				</methods>
+			</class>
+			<class
+				name="ob.qa.test.testNGJangu.Abay_Advanced_Search_Sanity">
+				<methods>
+					<exclude name="empty_Search_test_advanced" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

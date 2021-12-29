@@ -1,0 +1,8 @@
+<suite name="Sanity Test Suite">
+	<test name="Release 2021.12 Sanity Testing">
+		<classes>
+			<class name="ob.qa.test.testNGJangu.EBayHome_Sanity"/>
+			<class name="ob.qa.test.testNGJangu.Abay_Advanced_Search_Sanity"/>
+		</classes>
+	</test>
+</suite>

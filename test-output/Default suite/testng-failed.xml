@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="ob.qa.test.testNGJangu.EBayHome_Sanity">
+        <methods>
+          <include name="afterClassSetUp"/>
+          <include name="tearDown"/>
+          <include name="empty_Search_test"/>
+          <include name="beforeClassSetUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- ob.qa.test.testNGJangu.EBayHome_Sanity -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
